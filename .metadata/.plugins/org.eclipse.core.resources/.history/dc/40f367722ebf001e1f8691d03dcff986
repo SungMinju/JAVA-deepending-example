@@ -1,0 +1,24 @@
+package encapsulation.constructor;
+
+import encapsulation.prev.CalculateType;
+
+public class CalculateCommand {
+	private CalculateType calculateType;
+	private int num1;
+	private int num2;
+	
+	public CalculateCommande(CalculateType calculateType, int num1, int num2) {
+		if(calculateType == null) {
+			throw new RuntimeException("CalculateType은 필수 값이비낟.");
+		}
+		if(calculateType == CalculateType.DIVIDE && num2 ==0
+				) {
+			throw new RuntimeException("0으로 나눌 수 없습니다.");
+		}
+		
+		this.calculateType = calculateType;
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+
+}

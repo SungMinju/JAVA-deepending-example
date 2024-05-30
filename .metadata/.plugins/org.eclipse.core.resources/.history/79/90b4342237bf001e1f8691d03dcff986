@@ -1,0 +1,10 @@
+package stream.filter;
+
+public class FilterExampleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package stream.filter;
+
+public class ForIfFilterExampleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

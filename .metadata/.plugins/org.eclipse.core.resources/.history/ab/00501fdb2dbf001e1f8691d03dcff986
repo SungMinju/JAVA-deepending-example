@@ -1,0 +1,5 @@
+package encapsulation.constructor;
+
+public class CalculateCommand {
+
+}

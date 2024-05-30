@@ -1,0 +1,10 @@
+package encapsulation.constructor;
+
+public class ConstructorExampleMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

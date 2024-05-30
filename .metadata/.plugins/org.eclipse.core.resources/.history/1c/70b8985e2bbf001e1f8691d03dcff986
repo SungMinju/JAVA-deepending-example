@@ -1,0 +1,36 @@
+package encapsulation.setter;
+
+import encapsulation.prev.CalculateType;
+
+public class CalculateCommand {
+	//연산에 필요한 변수들
+	private CalculateType calculateType;
+	private int num1;
+	private int num2;
+	
+	
+	public void setCalculateType(CalculateType calculateType) {
+		this.calculateType = calculateType;
+	}
+	public void setNum1(int num1) {
+		this.num1 = num1;
+	}
+	public void setNum2(int num2) {
+		this.num2 = num2;
+	}
+	
+	//기존 getter는 모두 삭제
+	//그러나 연산은 이뤄져야 하므로
+	public int getCalculateResult() {
+		CalculateType calculateType = this.calculateType;
+		int num1 = this.num1;
+		int num2 = this.num2;
+		
+		int result = calculateType.calculcate(num1, num2);
+		
+		return result;
+	}
+	
+	
+
+}
